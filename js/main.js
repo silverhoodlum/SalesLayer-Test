@@ -29,6 +29,6 @@ function myFunction(x) {
   }
 }
 
-var x = window.matchMedia("(max-width: 700px)")
+var x = window.matchMedia("(max-width: 600px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction)
