@@ -1,0 +1,253 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hamza Test - Sales Layer</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav><a href="index.html"><img src="assets/images/logo.png"/></a></nav>
+    
+    <!-- Landing -->
+    
+    <div class="container container-landing">
+        <div class="row">
+            <div class="col-md-5 offset-md-1 col-sm-12 order-sm-12 text-center">
+                <h1>Te ayudamos a crecer</h1>
+                <p class="main-description">Convierte tu ambición en objetivos reales con la ayuda de los partners de Sales Layer</p>
+                <button type="button" class="btn btn-main"><a href="#">Encuentra un partner</a><span class="icon"></span></button>
+            </div>
+            <div class="col-md-6 col-sm-12 order-sm-1" id="landing-img-wrapper">
+                <img src="assets/images/trabajo-en-equipo.png" alt="trabajo en equipo" />
+            </div>
+        </div>
+    </div>
+    
+     <!-- Background Svg Wave 1  -->
+    <svg viewBox="0 0 500 60" preserveAspectRatio="xMinYMin meet">
+        <path d="m0,10 
+                 c80,-10 100,0 300,30 
+                 c300,50 300,-120 200,0 
+                 l0,20 
+                 l-800,0 
+                 l3,-200
+                 z" style="stroke: none; fill:#f4f6f9;"></path>
+    </svg>
+    
+    <!-- Expertise Area -->
+    
+    <div id="expertise-container">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 col-sm-12 text-center">
+                    <img src="assets/images/icons_solution.png" alt="soltions" />
+                    <p class="title-small">Solutions Partners</p>
+                    <h2>Asesores de confianza</h2>
+                    <p>Nuestros Solution Partners unen su experiencia especializada a un conocimiento profundo de Sales Layer. Desde integraciones hasta conectividad, ofrecen el conocimiento técnico y la orientación que necesitas para sacar el máximo provecho a tu implementación.</p>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center">
+                    <img src="assets/images/icons_affiliate.png" alt="affiliate" />
+                    <p class="title-small">Partners Afiliados</p>
+                    <h2>Expertos locales</h2>
+                    <p>Nuestros Partners Afiliados llevan a Sales Layer alrededor del mundo, dando a conocer las bondades y el poder de la tecnología PIM. En algunos casos, también pueden asesorarte con el funcionamiento del PIM para que aproveches todo su potencial.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row container-shape">
+            <img src="assets/images/line_shape_blue.png" />
+            <img src="assets/images/shape_yellow_plant.png" />
+        </div>
+    </div>
+    
+    <!-- Background Svg Wave 2  -->
+    <svg viewBox="0 0 500 100" preserveAspectRatio="xMinYMin meet">
+        <path d="m0,20
+                 c66,-11 177,-25 320,30
+                 c145,55 395,10 480,60
+                 l-2,-150
+                 l-800,0
+                 l0,150
+                 z" style="stroke: none; fill:#f4f6f9;"></path>
+    </svg>
+    
+    <!-- Client -->
+    
+    <div class="container container-clients text-center">
+        <p class="title-small">Encuentra un partner</p>
+        <h2>Un mundo de experiencia</h2>
+        <div class="row">
+            
+            <!-- Dropdown -->
+            <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ver por categoria
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Todos</a>
+                    <a class="dropdown-item" data-toggle="modal" data-target="#myModal">Affiliate</a>
+                    <a class="dropdown-item" data-toggle="modal" data-target="#myModal">Solutions</a>
+                  </div>
+            </div>
+        </div>
+        
+        <!-- Modal Below -->
+        
+        <div class="modal" tabindex="-1" id="myModal" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="container-shape">
+                    <img src="assets/images/modal/shape_line_4.png" />
+                    <img src="assets/images/modal/shape_doodle.png" />
+                    <img src="assets/images/modal/shape_circle_red.png" />          
+                </div>
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <img class="modal-logo" src="assets/images/modal/logo-3dids.png" />
+                  <div class="modal-details">
+                     <span id="category-card" >
+                         <img src="assets/images/modal/icon_affiliate.png" />
+                         <span>Affiliate Partner</span>                 
+                      </span>
+                      <span class="location">
+                          <img src="assets/images/modal/location.svg" />
+                          <span>España</span>
+                      </span>
+                  </div>
+                  <h3>Transformando ideas en negocio</h3>
+                <p>En 3dids contamos con más de 14 años de experiencia, más de 35 profesionales y más de 55 marcas internacionalizadas. Somos una empresa de transformación digital enfocada en negocios y resultados. Ayudamos a las marcas y las organizaciones a crecer en todos los sectores, nacionales e internacionales. Juntos lo hacemos realidad.</p>
+                  
+                  <button type="button" class="btn btn-main">Ver web</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        <!--  Logos client-->
+        
+        <div class="row container-logo">
+            <div class="col-6 col-md-3 padding">
+                <div class="client-logo"><img src="assets/images/logo-3dids.png" /></div>
+                
+            </div>
+            <div class="col-6 col-md-3 padding">
+                <div class="client-logo"><img src="assets/images/logo-barnesshirley.png" /> </div>
+            </div>
+            <div class="col-6  col-md-3 padding">
+                 <div class="client-logo"><img src="assets/images/logo-gtd360.png" /> </div>
+            </div>
+         </div>
+    </div>
+    
+    <!-- Purple Section -->
+    
+    <div class="container-purple">
+        <img alt="Helena photo" src="assets/images/photo-circle.png" class="img-thumbnail rounded-circle"/>
+        <div id="comment-box">
+               <blockquote class="blockquote">
+                   <div class="text">
+                   <p>Estamos liderando el cambio digital de nuestros clientes, y Sales Layer nos acompaña con una solución flexible, avanzada y dinámica.</p>
+                       <h5><span>Helena Grau</span><br> Directora de Telematel Contenidos y matmax </h5>
+                       </div>
+                </blockquote>
+        </div>
+    </div>
+    
+    <!-- Contact Area -->
+    
+    <div class="container container-contact">
+        <div class="row">
+            <div class="col-md-6 col-sm-12" >
+                <p class="title-small">Encuentra un partner</p>
+                <h2>Habla con un especialista</h2>
+                <p class="text-especialista">Tanto si quieres saber más sobre PIM como si buscas sacar más provecho a tu implementación, nuestros especialistas están esperándote
+                </p>
+                <div id="specialist-img-wrapper">
+                    <img src="assets/images/costumer-success.png" alt="trabajo en equipo" />
+                </div>   
+            </div>
+            <div class="col-md-5 offset-md-1 col-sm-12">
+                <form>
+                  <div class="form-row">
+                    <div class="col ">
+                        <div class="form-group row">
+                              <div class="col-sm-12 text-center">
+                                    <h4>Rellena tus datos y te contactaremos</h4>
+                              </div>
+                        </div>
+                        <div class="form-group row">
+                              <div class="col-sm-12 ">
+                                    <input type="text" class="form-control" placeholder="Nombre *">
+                              </div>
+                        </div>
+                        <div class="form-group row">
+                              <div class="col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Apellidos *">
+                              </div>
+                        </div>
+                        <div class="form-group row">
+                              <div class="col-sm-12">
+                                    <input type="email" class="form-control" placeholder="Email *">
+                              </div>
+                        </div>
+                        <div class="form-group row">
+                              <div class="col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Compañia *">
+                              </div>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                            <label class="form-check-label" for="autoSizingCheck2">
+                            Sales Layer términos de uso
+                            </label>
+                        </div>
+                        <button type="button" class="btn btn-main">Prueba gratis</button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer Area -->
+    
+    <div class="footer-container">
+        <div class="footer-img">
+                <img src="assets/images/shape_plant_pink.png" /> 
+               <img src="assets/images/shape_line_yellow.png" /> 
+               <img src="assets/images/shape_plant_blue.png" /> 
+        </div>
+        <svg viewBox="0 0 500 80" preserveAspectRatio="xMinYMin meet">
+        
+        <path id="svg_1" d="m266,80
+                            c0,0 130,-75 232,-56
+                            c100,19 0,57 0,56
+                            c0,0 -232,0 -232,0
+                            z" stroke="none" fill="#1c806d"/>
+        <path d="m0,10 
+                 c80,-10 100,0 300,30 
+                 c300,50 300,-120 200,0 
+                 l0,40 
+                 l-800,0 
+                 l3,-200
+                 z" style="stroke: none; fill:#2ccf94"></path>
+    </svg>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

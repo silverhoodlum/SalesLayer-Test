@@ -1,0 +1,569 @@
+body{
+    background-color: #ffffff; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+nav{
+    height: 15vh;
+    padding: 2% 8%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 61px;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* -------   Landing    -----*/
+
+.container-landing{
+    margin: 2% auto 5%;
+}
+
+#landing-img-wrapper{
+    width: 100%;
+    max-width: 540px; 
+}
+
+#landing-img-wrapper img{
+    width: 100%;
+    margin-left: 8%;
+}
+
+.main-description{
+    font-size:1.3rem;
+    margin: 10% 0;
+    color: #46637F;
+}
+
+/* -------   Expertise    -----*/
+
+#expertise-container{
+    background-color: #f4f6f9;
+    height: 65vh;
+    padding: 4% 0;
+}
+.container-shape{
+    position: relative;
+}
+
+#expertise-container .container-shape img:nth-of-type(1){
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#expertise-container .container-shape img:nth-of-type(2){
+    position: absolute;
+    top:160px;
+    right: 100px;
+}
+
+.btn-main{
+    background-color:#3BC693;
+    border-radius: 40px;
+    font-size:1.25rem;
+    line-height: 2.8rem;
+    padding: 1% 16%;
+    color: #ffffff;
+}
+
+.btn-main:hover{
+    background-color: #089466;
+}
+
+.btn-main a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn span.icon {
+    background: url('../assets/images/icons_buscador.png') no-repeat;
+    float: right;
+    width: 45px;
+    height: 45px;
+    margin-top: .2rem;
+    margin-left: 1rem;
+}
+.title-small{
+    color: #193BFF;
+    margin: 7% 0 0 0;
+}
+
+h2 ~ p{
+    margin: 4% 0;
+    color: #46637F;
+    padding: 0 13%;
+}
+
+/*-- Dropdown --*/
+
+.dropdown{
+    margin-top: 10%;
+}
+
+.btn-secondary{
+    background-color: #ffffff;
+    color: #899BAD;
+    border: 1px solid #899BAD;
+    padding: 6% 10%;
+} 
+.dropdown-toggle{
+    background-color: #ffffff !important;
+    color: #899BAD !important;
+    border: 1px solid #899BAD !important;
+}
+.dropdown-menu{
+    margin-top: 4%;
+    width: 100%;
+}
+
+.client-logo{
+    padding: 20% 2%;
+    border: 1px solid #899BAD;
+    align-content: center;
+    margin: 1% ;
+    border-radius: 5px;
+}
+.container-logo{
+    justify-content: center;
+    margin: 5% 0 20% 0;
+}
+
+.dropdown-toggle::after {
+    border-top: .3em solid #3BC693;
+}
+.dropdown-item{
+    color: #46637F;
+    margin: 2% 0;
+}
+.dropdown-item:hover{
+    background-color: #3BC693;
+    color: #ffffff;
+    transform: scale(1.1)
+}
+
+
+
+/* -------   Modal    -----*/ 
+.modal-header{
+    border: none;
+}
+
+.modal-dialog{
+   max-width: 800px;
+}
+
+.modal-body{
+    height: 80vh;
+}
+
+.close{
+    font-size: 2.5rem;
+}
+
+.modal .container-shape img:nth-of-type(1){
+    position: absolute;
+    left: 0;
+}
+.modal .container-shape img:nth-of-type(2){
+    width:16%;
+    position: absolute;
+    right: 0;
+}
+
+.modal .container-shape img:nth-of-type(3){
+    position: absolute;
+    width:7%;
+    left: 50px;
+    top: 160px;
+}
+
+.modal-body .modal-logo{
+    margin: 3% 0 11%;
+    height: 10%;
+}
+
+.modal-body p{
+    padding: 0 8% 8%;
+}
+
+.modal-details{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body .modal-details #category-card {
+   background-color: #E0E6ED;
+    border-radius: 6px;
+    padding: .3rem;
+}
+.modal-body .modal-details #category-card span{
+    padding: 50% 0;
+    color: #46637F;
+}
+.modal-body .modal-details #category-card img{
+    width: 40px;
+}
+.modal-body .modal-details .location{
+    margin-left: 3%;
+    padding: 1% 0;
+    color: #FF9902;
+}
+
+.modal-body .modal-details .location img{
+    width: 15px; 
+}
+
+.modal-body h3{
+    color: #193BFF;
+    margin: 4% 0;
+}
+
+/* -------   Purple Container    -----*/ 
+
+.container-purple{
+    background-image: url('../assets/images/purple-back.svg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height:100vh;
+    display: flex;
+}
+#comment-box{
+    background-color: #ffffff;
+    margin: 20% auto 0 auto;
+    width: 50%;
+    height: 35%;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+.container-purple img{
+    position:absolute;
+    height: 26%;
+    margin-top: 27%;
+    margin-left: 22%
+}
+#comment-box .text{
+    padding: 8% 5% 4% 24%;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+/* -------   Blockquote    -----*/ 
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #383838;
+}
+
+blockquote:before { 
+    content: open-quote;
+    font-weight: bold;
+    font-size:150px;
+    line-height: 80px;
+    color:#193bff;
+    margin-right: 60%;
+    position: absolute;
+    left: 30%
+    
+} 
+blockquote:after { 
+    content: close-quote;
+    font-weight: bold;
+    font-size:150px;
+    line-height: 20px;
+    color:#193bff;
+    margin-left: 60%;
+    position: absolute;
+    right: 26.5%;
+}
+
+#comment-box h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    font-style: normal;
+    margin-bottom: 9%;
+    color: #46637F;
+
+}
+
+blockquote p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; 
+    font-style: normal;
+    padding: 0 0 2%;
+    
+}
+#comment-box h5 span{
+    font-weight: 700;
+
+}
+
+/*---- Contact ----*/
+
+.container-contact{
+    margin-top: 9%;
+}
+
+.container-contact .title-small{
+    margin: 0;
+}
+
+.text-especialista{
+    padding: 0;
+    font-size: .95rem;
+}
+
+form{
+    margin: 0 auto 20% auto;
+    padding: 10%;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 17px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 17px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 17px -6px rgba(0,0,0,0.75);
+    color: #899BAD;
+}
+
+form h4{
+    margin: 0 0 10% 0;
+    color: #202D3A;
+}
+
+form .btn-main{
+    width: 100%;
+    margin: 10% 0 6%;
+}
+
+#specialist-img-wrapper{
+    width: 100%;
+    max-width: 470px;   
+}
+
+#specialist-img-wrapper img{
+    width: 100%;
+    margin-left: 5%;
+}
+
+/*---- Footer ----*/
+
+.footer-img{
+    position: relative;
+}
+
+.footer-img img:nth-of-type(1){
+    position: absolute;
+    left: 15%;
+    
+    
+}
+.footer-img img:nth-of-type(2){
+    position: absolute;
+    left: 55%;
+   top: 0.6rem
+}
+.footer-img img:nth-of-type(3){
+    position: absolute;
+    right: 17%;
+    top: -1.2rem
+}
+
+
+/* -------   Small Devices    -----*/
+/* -------  ---------------   -----*/
+
+@media only screen and (max-width: 600px) {
+    h1{
+    font-size: 42px;
+    }
+    h2{
+        font-size: 2.55rem;
+    }
+    .container-landing .btn-main{
+        line-height: 2rem;
+        display: flex;
+        padding: 2% 8%;
+    }
+    .btn-main a{
+        width: 70%;
+        margin-left: 3%;
+    }
+    .btn span.icon {
+        margin: 4% 0% 4% 6%;  
+}
+    #landing-img-wrapper{
+        width: 85%;
+        margin: 30% auto;
+    }
+    .container-shape{
+        width: 100%
+    }
+    /* -------   Expertise    -----*/
+    #expertise-container{
+        height: 1350px;
+        padding: 30% 0;
+    }
+    #expertise-container .container-shape img:nth-of-type(1){
+        display: none;
+}
+    #expertise-container .container-shape img:nth-of-type(2){
+        right: 50px;
+        top: -50px
+}
+    #expertise-container .container .row h2 ~ p{
+        margin-bottom: 35%;
+    }
+     /* -------   Clients   -----*/
+    .container-clients{
+        margin: 50% 0 0 0;
+    }
+    .dropdown{
+        margin: 30% 0 20% 6%;
+    }
+    .container-logo{
+        margin: 5% auto 20% auto;
+        justify-content: start;
+}
+    .padding{
+        padding: 5px !important;
+    }
+    .client-logo{
+        padding: 20% 2%;
+        border: 1px solid #899BAD;
+        margin: 0% ;
+        border-radius: 5px;
+    }
+    .client-logo img{
+       width: 70%;
+    }
+    
+    /* -------   Purple Comment   -----*/
+    .container-purple{
+        margin: 40% 0;
+        padding: 40% 0;
+        height: 900px;
+        position: relative;
+    }
+    .container-contact .title-small{
+        margin-bottom: 2%;
+        font-size: 1.1rem;
+    }
+
+    #comment-box{
+        position: relative;
+        width: 85%;
+        height: 500px;
+        margin: 10% auto;
+    }
+    
+    .container-purple img{
+        height: 200px;
+        position: absolute;
+        top: 575px;
+        left: 25%;
+        margin: 0;
+        z-index: 1;  
+    }
+    #comment-box .text{
+        padding: 22% 7% 15%;
+    }
+    
+    /* -------   Blockquote    -----*/ 
+
+    blockquote:before { 
+        left: 10%;   
+    } 
+    blockquote:after { 
+        right: 5%;
+    }
+    #comment-box h5{
+        font-family: 'Open Sans', sans-serif;
+        font-size: .875rem;
+        font-style: normal;
+        margin-bottom: 9%;
+        color: #46637F;
+    }
+    blockquote p{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700; 
+        font-style: normal;
+        padding: 0 0 2%;
+    }
+    #specialist-img-wrapper{
+        display: none;
+    }
+    .container-contact{
+        text-align: center;
+    }
+    form{
+        margin: 30% auto 20% ;
+    }
+    .footer-img img:nth-of-type(1){
+        position: absolute;
+        left: 15%;
+        width: 50px;
+    }
+    .footer-img img:nth-of-type(2){
+        position: absolute;
+        left: 55%;
+        top: 0.6rem;
+        width: 20px
+    }
+    .footer-img img:nth-of-type(3){
+        position: absolute;
+        right: 17%;
+        top: -.5rem;
+        width: 35px
+    }
+    
+    /*--- Modal ---*/
+    .modal-details{
+        display: flex;
+        flex-flow: column-reverse wrap;
+    }
+    #category-card{
+        width: 60%;
+        margin: 5% auto 20%;
+    }
+    .modal-body{
+        height: 820px;
+    }
+    .modal-body .modal-logo{
+        margin: 22% 0 11%;
+        height: 3.2rem;
+    }
+    .modal-body p{
+        padding: 3% 2% 10%;
+    }
+    .modal-body button{
+        padding: 1% 32%;
+    }
+    .modal .container-shape img:nth-of-type(1){
+        width: 70px;
+    }
+    .modal .container-shape img:nth-of-type(2){
+        width:70px;
+    }
+    .modal .container-shape img:nth-of-type(3){
+    display: none
+    }
+}
